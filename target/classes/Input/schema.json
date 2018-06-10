@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "title": "Greeting",
+    "description": "Will greet you",
+    "id": "http://jsonschema.net",
+    "required": true,
+    "properties": {
+        "greeting": {
+            "type": "object",
+            "id": "http://jsonschema.net/greeting",
+            "required": true,
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "required": true
+                },
+                "employee_name": {
+                    "type": "string",
+                    "required": true
+                }
+            }
+        }
+    }
+}

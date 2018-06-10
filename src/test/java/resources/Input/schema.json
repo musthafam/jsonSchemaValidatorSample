@@ -1,0 +1,22 @@
+{
+  "description": "Sample Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "employee_name": {
+      "type": "string"
+    },
+    "employee_salary": {
+      "type": "string"
+    },
+    "employee_age": {
+      "type": "string"
+    },
+    "profile_image": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
